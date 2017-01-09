@@ -1,0 +1,1 @@
+/Users/dulce/Developer/NativeScript/modal/platforms/android/src/main/assets/app/views/buscar-cliente-modal/buscar-cliente-modal.js

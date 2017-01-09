@@ -1,0 +1,43 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+ showingModally="onShownModally"
+ tap="ocultarTeclado"
+ loaded="loadPage" actionBarHidden="true" android:backgroundColor="transparent" ios:cssClass="pageDescuento">
+<GridLayout cssClass="grid">
+<StackLayout orientation="vertical" horizontalAlignment="center" verticalAlignment="center" height="60%" width="90%" backgroundColor="#F2F2F2">
+    <StackLayout orientation="vertical" verticalAlignment="center" horizontalAlignment="center" marginTop="2.5%" marginBottom="2.5%" height="82.5%" width="100%">
+        <Image src="res://clonar" width="20%" marginLeft="4%"/>
+        <Label text="Clonar Cotización: " verticalAlignment="center" fontSize="22%" color="#6A6A6A" textWrap="true" textAlignment="center"/>
+        <StackLayout width="90%" height="1" backgroundColor="#6A6A6A"/>
+        <StackLayout height="13%" orientation="horizontal" horizontalAlignment="center" width="90%" marginTop="1%" marginBottom="1%">
+            <Image src="res://folio" width="9%" marginRight="1%"/>
+            <TextField height="90%" id="txtIdCot" backgroundColor="#CBCBCB" textAlignment="center" width="28%" marginLeft="1%" marginRight="1%"/>
+            <Image src="res://fecha" width="9%" marginRight="1%"/>
+            <TextField height="90%" id="txtFecha" backgroundColor="#CBCBCB" textAlignment="center" width="43%" marginLeft="1%" marginRight="1%"/>
+        </StackLayout>
+        <StackLayout height="13%" orientation="horizontal" horizontalAlignment="center" width="90%" marginTop="1%" marginBottom="1%">
+            <Image src="res://money" width="9%" marginRight="1%"/>
+            <TextField height="90%" id="txtTotal" backgroundColor="#CBCBCB" textAlignment="center" width="83%" marginLeft="1%" marginRight="1%"/>
+        </StackLayout>
+        <StackLayout height="13%" orientation="horizontal" horizontalAlignment="center" width="90%" marginTop="1%" marginBottom="1%">
+            <Image src="res://client" width="9%" marginRight="1%"/>
+            <TextField height="90%" id="txtOldClient" backgroundColor="#CBCBCB" textAlignment="center" width="83%" marginBottom="5%"/>
+        </StackLayout>
+        <!-- Cliente Nuevo -->
+        <StackLayout width="90%" height="1" backgroundColor="#6A6A6A"/>
+        <Label text="Seleccionar Nuevo Cliente" verticalAlignment="center" color="#2C2C2C" textWrap="true" textAlignment="center"/>
+        <StackLayout height="13%" orientation="horizontal" horizontalAlignment="center" width="90%" marginTop="1%" marginBottom="1%">
+            <Image src="res://client" width="9%" marginRight="1%"/>
+            <TextField height="90%" id="txtNewClient" backgroundColor="#CBCBCB" tap="buscarCliente" textAlignment="center" width="83%" marginBottom="5%"/>
+        </StackLayout>
+    </StackLayout>
+    <StackLayout orientation="horizontal" horizontalAlignment="center" height="100%" width="100%">
+        <StackLayout orientation="horizontal" height="100%" width="50%" backgroundColor="#2C2C2C" tap="cancelar">
+            <Label id="btnCancel" text="CANCELAR" width="100%" cssClass="buttonLogin"/>
+        </StackLayout>
+        <StackLayout orientation="horizontal" height="100%" width="100%" backgroundColor="#005BA8" tap="aceptar">
+            <Label id="btnAceptar" text="ACEPTAR" width="100%" cssClass="lblConectar" cssClass="buttonLogin"/>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>
+</GridLayout>
+</Page>

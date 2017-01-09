@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-recyclerview-v7-23.4.0_f4d4dcb3967d042331e8048c80149866364ce111.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-vector-drawable-23.4.0_aa70c10b9e7bc53af90f9fae9915ac7462286863.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-appcompat-v7-23.4.0_a08a1f8e125d63cb09c03595c4c57a3738a7719b.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/Primitives-2016.3.1118-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="acf956a9e525bfe0596e189d99c0e59a41c0f525">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Primitives-2016.3.1118-dev-release_fdbcfa3f03f42d9a22d3078d26672a9cd3e7a3a9.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/modal/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fea98d375ec6edba3b9192dfecb16864c8c1fb10">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/binding-generator_7ba623d256789569e43d0757d4dd0ced367df9f7.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-animated-vector-drawable-23.4.0_7d98296591315487778cb11fc7182feacf7b1038.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/modal/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="791326bdf152dc35a200aea2938d5e5f2af0c81a">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/modal-runtime-unspecified_2dcca72e9a98a12aa1368d451d4fb9dfe0beef84.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/Data-2016.3.1118-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="7b14109d2464707646a7e61667b939f3c285f627">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Data-2016.3.1118-dev-release_82429c074c5d8791668f0272dd071941c855393f.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9eec987a0056adc79d607b32e7e1c41997a434a7">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-widgets-release_cda3f19eaabfc532552c1ce96abb44518e7f8ee6.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/List-2016.3.1118-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="a1733921f8567f06df140d8a53a802669b62bb16">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-List-2016.3.1118-dev-release_79c1761d3d2bb42c58a1913e18f27ecc3201bd95.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.4.1_1/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/support-annotations-23.4.0_a12a58e60202c69d81c9a0c51e787f1734022445.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-design-23.4.0_d2bec2c9ce0ed583fca45830e566ba02764cf351.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/internal_impl-23.4.0_f2027430381aa6794844670e1495c3f7d1e76fb9.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/Common-2016.3.1118-dev-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8763df494a4176b8d7acedbf60ebc9b5483f6629">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/intermediates-exploded-aar-Common-2016.3.1118-dev-release_f7f0da5dd82d933c06638ae91622fa975d8e5b8c.jar" />
+    </item>
+    <item
+        jar="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/dulce/Developer/NativeScript/modal/platforms/android/build/intermediates/pre-dexed/F0F1/debug/com.android.support-support-v4-23.4.0_4eb0433d037259d003d5e38c1ee6cb8e36288133.jar" />
+    </item>
+
+</items>

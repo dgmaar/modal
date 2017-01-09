@@ -1,0 +1,81 @@
+﻿.textGris
+{
+    color: #8A8A8A;
+    padding: 8;
+    font-weight: bold;
+    align-content: left;
+    vertical-align: bottom;
+    font-family:"Myriad Pro Regular";
+}
+
+.titleDialog
+{
+    color: #2B2B2B;
+    padding: 8;
+    font-weight: bold;
+    align-content: left;
+    vertical-align: bottom;
+    font-family:"Myriad Pro Regular";
+}
+
+.tfVariosArt
+{
+    color:#8A8A8A;
+    width: 100%;
+    padding: 8;
+    vertical-align: center;
+    background-color: transparent;
+    font-family: "Myriad Pro Regular";
+}
+
+.textItemList
+{
+    color:white;
+    font-family: "Myriad Pro Regular"; 
+    font-weight: bold;
+}
+
+.textItemSwipe
+{
+    color:white;
+    font-family: "AvenirLTStd-Medium"; 
+    font-weight: bold;
+}
+
+.hidden 
+{
+   visibility: hidden;
+   visibility: collapse;
+}
+
+#listaProductos
+{
+    background-color: transparent;
+}
+
+.imgArt
+{
+    vertical-align: center;
+    height:64;
+    width: 64;
+    background-color: white;
+}
+
+.tfFechas {
+    color: #323232;
+    background-color: transparent;
+    font-family: "Myriad Pro Regular";
+}
+
+.pageDescuento{
+        background-color: transparent;
+    }
+
+.grid{
+        background-color: transparent;
+    }
+.selector{
+    border: 1;
+    border-color: #8A8A8A;
+    border-radius: 2;
+}

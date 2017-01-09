@@ -1,0 +1,68 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+ xmlns:lv="nativescript-telerik-ui/listview"
+ showingModally="onShownModally"
+ loaded="loadPage" actionBarHidden="true" backgroundColor="#FFFFFF">
+<GridLayout>
+<StackLayout orientation="vertical" horizontalAlignment="center">
+    <!--Buscar Cliente -->
+    <StackLayout orientation="vertical" horizontalAlignment="center" verticalAlignment="center" width="100%" height="8%" backgroundColor="#005BA8">
+        <StackLayout orientation="horizontal" verticalAlignment="center" horizontalAlignment="center" width="100%" height="96%" marginBottom="2%" marginTop="2%">
+            <Image src="res://" height="60%" width="10%" />
+            <Label text="SELECCIONAR CLIENTE" cssClass="textActBar" color="white" verticalAlignment="center" width="80%" textAlignment="center"/>
+            <Image src="res://cerrar" height="60%" width="9%" marginRight="1%" tap="cancelar"/>
+        </StackLayout>
+     </StackLayout>
+     <!-- Buscar cliente -->
+    <StackLayout orientation="horizontal" verticalAlignment="center" horizontalAlignment="center" width="100%" height="10%" backgroundColor="#2C2C2C">
+       <StackLayout orientation="horizontal" height="60%" backgroundColor="#E0E0E0" width="75%" marginLeft="5%" verticalAlignment="center">
+            <TextField id="txtBuscarArt" color="#A4A4A4" hint="nombre del cliente" cssClass="tfVariosArt" width="100%"/>
+        </StackLayout>
+        <StackLayout id="stackBuscar" orientation="vertical" verticalAlignment="center" width="12%" height="60%" marginLeft="3%" marginRight="5%" backgroundColor="#005BA8" tap="buscarCliente">
+            <Image src="res://buscar" height="60%"/>
+        </StackLayout>
+     </StackLayout>
+     <!-- Lista de productos -->
+     <lv:RadListView id="listaCotiz"
+     backgroundColor="#FFFFFF"
+     items="{{ myItems }}" height="100%" width="100%" 
+     itemSwipeProgressStarted="onSwipeCellStarted" 
+     itemSwipe="true"
+     itemTap="aceptar"
+     loadOnDemandMode="Auto"
+     loadMoreDataRequested="loadMoreItems">
+     <lv:RadListView.listViewLayout>
+        <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+    </lv:RadListView.listViewLayout>
+        <lv:RadListView.itemTemplate>
+            <StackLayout id="stackTemplate" orientation="vertical" horizontalAlignment="left" height="8%" width="100%" backgroundColor="#FFFFFF">
+                <StackLayout orientation="vertical" height="20" width="100%"/>
+                <StackLayout orientation="horizontal" width="95%" height="100%" horizontalAlignment="center" backgroundColor="#FFFFFF">
+                    <!--<Label  text="{{ noCliente }}" cssClass="textItemList" height="100%" width="10%" textAlignment="right"/>-->
+                    <Label text="{{ cliente }}" marginLeft="4%" width="80%" cssClass="textItemList" textAlignment="left"/>
+                    <!--<StackLayout orientation="vertical" verticalAlignment="bottom" height="100%">
+                        <Label text="{{ val }}" cssClass="textItemList" textWrap="true" marginLeft="2%" marginRight="2%" textAlignment="right"/>
+                    </StackLayout>-->
+                </StackLayout>
+                <StackLayout orientation="vertical" height="19" width="100%" backgroundColor="#FFFFFF"/>
+                <StackLayout orientation="vertical" height="1" width="100%" backgroundColor="#CBCBCB"/>
+            </StackLayout>
+        </lv:RadListView.itemTemplate>
+        <!-- listview-swipe-template-xml -->
+        <lv:RadListView.itemSwipeTemplate>
+            <GridLayout columns="auto, *, auto" backgroundColor="#FFFFFF">
+                <StackLayout col="2" orientation="horizontal" height="100%" width="25%" verticalAlignment="center">
+                    <StackLayout orientation="horizontal" horizontalAlignment="center" verticalAlignment="center" height="100%" tap="dialogEliminarCliente" width="100%" backgroundColor="#D21B33">
+                        <Label text="Eliminar" color="white" cssClass="textGris" verticalAlignment="center" />
+                    </StackLayout>
+                </StackLayout>
+            </GridLayout>
+        </lv:RadListView.itemSwipeTemplate>
+    </lv:RadListView>
+    <!-- Botón agregar cliente 
+    <StackLayout orientation="vertical" backgroundColor="#005BA8" height="100%" width="100%" cssClass="stackButton"  id="btnAcoti">
+        <Label text="AGREGAR CLIENTE" color="#fff" width="100%" cssClass="buttonAgr" textAlignment="center"/>
+    </StackLayout>-->
+</StackLayout>
+<ActivityIndicator id="indicator" busy="{{ isLoading }}" height="15%" width="15%"/>
+</GridLayout>
+</Page>
